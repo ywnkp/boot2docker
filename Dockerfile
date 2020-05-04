@@ -318,7 +318,9 @@ RUN tcl-tce-load \
 		rsync \
 		tar \
 		util-linux \
-		xz
+		xz \
+		alsa \
+		alsa-config
 
 # bash-completion puts auto-load in /usr/local/etc/profile.d instead of /etc/profile.d
 # (this one-liner is the same as the loop at the end of /etc/profile with an adjusted search path)
